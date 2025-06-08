@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Firebase Sense HAT Logger</title>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-database-compat.js"></script>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h2>IoT 프로그래밍 SenseHat 실습</h2>
+    <div class="btn-row">
+      <button id="submitBtn">입력하기</button>
+      <button id="updateBtn">업데이트</button>
+      <button id="deleteBtn">제거하기</button>
+    </div>
+    <p id="status"></p>
+    <div id="dataDisplay" class="data-display"></div>
+  </div>
+  <script src="script.js" defer></script>
+</body>
+</html>
