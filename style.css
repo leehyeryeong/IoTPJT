@@ -74,6 +74,14 @@ h2 {
   transform: translateY(-3px);
 }
 
+/* button:disabled {
+  background-color: #ccc !important;
+  color: #888 !important;
+  cursor: not-allowed !important;
+  transform: none !important;
+  box-shadow: none !important;
+} */
+
 .input-area {
   margin-top: 32px;
   display: flex;
