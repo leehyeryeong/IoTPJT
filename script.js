@@ -136,5 +136,24 @@ document.getElementById('deleteBtn').addEventListener('click', () => {
     });
 });
 
+// 메세지 입력 처리
+/* customSubmitBtn.addEventListener('click', () => {
+  const message = inputText.value.trim();
+
+  if (message) {
+    const messageRef = firebase.database().ref('message');
+    messageRef.set(message)
+      .then(() => {
+        document.getElementById('status').textContent = '메세지가 저장되었습니다.';
+        inputText.value = '';
+      })
+      .catch((error) => {
+        document.getElementById('status').textContent = '저장 실패: ' + error.message;
+      });
+  } else {
+    document.getElementById('status').textContent = '메세지를 입력해주세요.';
+  }
+}); */
+
 // 초기 로딩 시 전체 데이터 표시
 window.addEventListener('load', loadData);
